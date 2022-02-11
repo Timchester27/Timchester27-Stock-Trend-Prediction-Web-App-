@@ -1,5 +1,6 @@
 # import the libraries
 import pandas as pd
+from tensorflow.python import tf2
 import numpy as np
 import matplotlib.pyplot as plt
 import yfinance as yf
