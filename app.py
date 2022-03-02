@@ -99,3 +99,14 @@ plt.xlabel("Time")
 plt.ylabel("Price")
 plt.legend()
 st.pyplot(fig2)
+
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://wallpaperaccess.com/full/1393720.jpg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
